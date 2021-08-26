@@ -15,7 +15,12 @@ Recon Tool of The Bug Hunter
 ## Instalação
 
 ### Linux
-Pra fazer a instalação do Final Recon basta executar esses comandos no seu **terminal linux**:
+Para poder instalar a ferramenta precisamos realizar a instalação do **python** e do **git** a partir destes comandos:
+```
+sudo apt install python3 python3-pip
+sudo apt install python3 git
+```
+Para fazer a instalação do **Final Recon** basta executar esses comandos no seu terminal linux:
 ```bash
 git clone https://github.com/thewhiteh4t/FinalRecon.git
 cd FinalRecon
