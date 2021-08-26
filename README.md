@@ -10,12 +10,12 @@ Recon Tool of The Bug Hunter
 <img src="https://img.shields.io/badge/Web-red.svg?style=plastic">
 <br><br></p>
 
-FinalRecon é uma ferramenta automática de reconhecimento web escrita em python. Em vez de executar várias ferramentas uma após a outra, o final recon junta diversas ferramentas e tecnicas de reconhecimento em um mesmo programa, sendo o seu **"hub de reconhecimento"**
+**FinalRecon** é uma ferramenta automática de reconhecimento web escrita em **python**. Em vez de executar várias ferramentas uma após a outra, o final recon junta diversas ferramentas e tecnicas de reconhecimento em um mesmo programa, sendo o seu **"hub de reconhecimento"**
 
 ## Instalação
 
 ### Linux
-Pra fazer a instalação do Final Recon basta executar esses comandos no seu terminal linux:
+Pra fazer a instalação do Final Recon basta executar esses comandos no seu **terminal linux**:
 ```bash
 git clone https://github.com/thewhiteh4t/FinalRecon.git
 cd FinalRecon
