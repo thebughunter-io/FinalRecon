@@ -22,7 +22,7 @@ sudo apt install python3 git
 ```
 Para fazer a instalação do **Final Recon** basta executar esses comandos no seu terminal linux:
 ```bash
-git clone https://github.com/thewhiteh4t/FinalRecon.git
+git clone https://github.com/thebughunter-io/FinalRecon.git
 cd FinalRecon
 pip3 install -r requirements.txt
 ```
