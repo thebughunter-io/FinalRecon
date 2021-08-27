@@ -1,7 +1,7 @@
 <p align="center">
 <br>
 <img width=400 src="https://i.imgur.com/xoMC34h.png"><br>
-Recon Tool of The Bug Hunter
+ Recon Tool of The Bug Hunter by <a href="https://github.com/thewhiteh4t">thewhiteh4t</a>
 </p>
 
 <p align="center">
