@@ -25,6 +25,7 @@ Para fazer a instalação do **Final Recon** basta executar esses comandos no se
 git clone https://github.com/thebughunter-io/FinalRecon.git
 cd FinalRecon
 pip3 install -r requirements.txt
+pip3 install psycopg2-binary
 ```
 
 ## Features
