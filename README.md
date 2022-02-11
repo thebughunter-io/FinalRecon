@@ -17,8 +17,9 @@
 ### Linux
 Para poder instalar a ferramenta precisamos realizar a instalação do **python** e do **git** a partir destes comandos:
 ```
+sudo apt update
 sudo apt install python3 python3-pip
-sudo apt install python3 git
+sudo apt install git
 ```
 Para fazer a instalação do **Final Recon** basta executar esses comandos no seu terminal linux:
 ```bash
