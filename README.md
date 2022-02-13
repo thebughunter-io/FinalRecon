@@ -29,6 +29,24 @@ pip3 install -r requirements.txt
 pip3 install psycopg2-binary
 ```
 
+### Docker
+
+Crie a image docker:
+```bash
+docker build -t finalrecon_image .
+```
+
+Crie o container:
+```bash
+docker run -ti --name finalrecon finalrecon_image bash
+```
+
+Para reabrir o container:
+```bash
+docker start
+docker exec -ti finalrecon bash
+```
+
 ## Features
 
 O FinalRecon possui essa lista de funcionalidades:

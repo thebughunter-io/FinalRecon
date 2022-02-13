@@ -1,20 +1,9 @@
-FROM alpine:latest
-RUN apk update 
-RUN apk add \
-git \
-python3 \
-py3-pip gcc \
-python3-dev \
-postgresql-dev \
-libffi-dev \
-musl-dev \
-libxml2-dev \
-libxslt-dev
-RUN rm -rf /var/cache/apk/*
-WORKDIR /root
-RUN git clone https://github.com/thewhiteh4t/finalrecon.git
-WORKDIR /root/finalrecon/
-RUN pip3 install wheel
-RUN pip3 install --upgrade pip
-RUN pip3 install -r requirements.txt
-ENTRYPOINT ["python3", "finalrecon.py"]
+FROM python:3.9.0
+WORKDIR /home/finalrecon
+ENV PYTHON_VERSION=3.9 
+RUN apt-get update && apt-get -y install libpq-dev gcc 
+COPY . .
+RUN pip install wheel
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+CMD ["bash"]
